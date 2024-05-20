@@ -42,6 +42,42 @@ body {
     width: 100%;
 }
 
+.__mobile__navigations__wrapper__ {
+    display: none;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    background-color: #20252B;
+    color: #fff;
+    flex-direction: column;
+    border-top: 1px solid #A7B1BC;
+
+}
+
+
+.__mobile__navigations__wrapper__ ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.__mobile__navigations__wrapper__ ul li {
+    padding: 12px 12px;
+    border-bottom: 1px solid #32383F;
+    color: #A7B1BC;
+    align-items: center;
+
+}
+
+
+.__mobile__navigations__wrapper__ ul li:hover {
+   background-color: black;
+    color: white;
+
+}
+
+
 .__mobile__icons__wrapper {
     display: flex;
     align-items: center;

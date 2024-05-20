@@ -56,3 +56,22 @@ async function renderChart() {
 }
 
 renderChart();
+
+
+document.getElementById('toggleMobileNavigations').addEventListener('click', function() {
+    const navigations = document.getElementById('mobile_navigations')
+    const cancelIcon = document.getElementById('cancelIcon')
+    const hamburger = document.getElementById('hamburger')
+
+        if (navigations.style.display === 'none' || navigations.style.display === '') {
+            navigations.style.display = 'flex'
+            cancelIcon.style.display = 'flex'
+            hamburger.style.display = 'none'
+
+
+        }else{
+            navigations.style.display = 'none'
+            cancelIcon.style.display = 'none'
+            hamburger.style.display = 'flex'
+        }
+})
